@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./static/images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="/static/styles/home.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="/static/scripts.js"></script>
+		<title>Início</title>
+	</head>
+	<body>
+		<header class="nav">
+			<a class="logo" href="/"><img src="/static/icons/logo.svg" alt="" /></a>
+			<div class="openbtn" onclick="toggle();">
+				<img
+					class="open-menu"
+					src="/static/icons/icon-menu.svg"
+					alt="icon-menu"
+				/>
+				<img
+					class="close-menu"
+					src="/static/icons/icon-close-menu.svg"
+					alt="icon-close-menu"
+				/>
+			</div>
+			<div class="menu">
+				<ul>
+					<div class="dropdown">
+						<a class="dropbtn">Produtos</a>
+						<div class="submenu">
+							<li>
+								<a href="#" class="dropdown-icon" id="todo">Todo List</a>
+							</li>
+							<li>
+								<a href="#" class="dropdown-icon" id="calendar">Calendario</a>
+							</li>
+							<li>
+								<a href="#" class="dropdown-icon" id="reminder">Lembretes</a>
+							</li>
+							<li>
+								<a href="#" class="dropdown-icon" id="planning">Projetos</a>
+							</li>
+						</div>
+					</div>
+					<div class="dropdown">
+						<a class="dropbtn">Empresa</a>
+						<div class="submenu">
+							<li><a class="header-link" href="#">História</a></li>
+							<li><a class="header-link" href="#">Nosso Time</a></li>
+							<li><a class="header-link" href="#">Blog</a></li>
+						</div>
+					</div>
+					<li class="header-link"><a href="#">Carreiras</a></li>
+					<li class="header-link"><a href="#">Sobre</a></li>
+				</ul>
+				<ul>
+					<li class="header-link">
+						<a href="#">Entrar</a>
+					</li>
+					<li class="header-link">
+						<a class="border" href="#">Cadastro</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<div class="hero1">
+				<div class="conteudo">
+					<h1>Make remote work</h1>
+					<p>
+						Get your team in sync, no matter your location. Streamline
+						processes, create team rituals, and watch productivity soar.
+					</p>
+					<button class="border">Ver mais</button>
+				</div>
+				<div class="clients">
+					<div class="client-img">
+						<img src="/static/icons/client-maker.svg" alt="client-maker" />
+					</div>
+					<div class="client-img">
+						<img src="/static/icons/client-databiz.svg" alt="client-databiz" />
+					</div>
+					<div class="client-img">
+						<img
+							src="/static/icons/client-audiophile.svg"
+							alt="client-audiophile"
+						/>
+					</div>
+					<div class="client-img">
+						<img src="/static/icons/client-meet.svg" alt="client-meet" />
+					</div>
+				</div>
+			</div>
+			<div class="hero">
+				<img
+					src="/static/images/image-hero-desktop.png"
+					alt="image-hero-desktop"
+				/>
+				<img
+					src="/static/images/image-hero-mobile.png"
+					alt="image-hero-mobile"
+				/>
+			</div>
+		</main>
+		<div class="background-mobile"></div>
+		<div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Jack970</a>.
+		</div>
+	</body>
+</html>
